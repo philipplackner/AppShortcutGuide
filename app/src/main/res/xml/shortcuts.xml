@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="static"
+        android:enabled="true"
+        android:icon="@drawable/baseline_baby_changing_station_24"
+        android:shortcutShortLabel="@string/short_label"
+        android:shortcutLongLabel="@string/long_label"
+        android:shortcutDisabledMessage="@string/disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.plcoding.appshortcutguide"
+            android:targetClass="com.plcoding.appshortcutguide.MainActivity">
+            <extra android:name="shortcut_id" android:value="static" />
+        </intent>
+
+    </shortcut>
+</shortcuts>
